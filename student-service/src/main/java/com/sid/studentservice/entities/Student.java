@@ -19,4 +19,10 @@ public class Student {
     private String firstName;
     private String lastName;
     private String cin;
+    private String major;
+    private String grade;
+    private String birthdate;
+    private String phone;
+    private String email;
 }
+
