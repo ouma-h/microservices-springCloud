@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b37b3bdf-6a79-421e-b899-86c1cee01313" name="Default Changelist" comment="" />
+    <list default="true" id="b37b3bdf-6a79-421e-b899-86c1cee01313" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy-service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/proxy-service/src/main/resources/bootstrap.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +45,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="student-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sid.studentservice.StudentServiceApplication" />
@@ -62,6 +76,7 @@
       <workItem from="1609006248579" duration="130000" />
       <workItem from="1609006396019" duration="1115000" />
       <workItem from="1609007540632" duration="153000" />
+      <workItem from="1609505238351" duration="120000" />
     </task>
     <servers />
   </component>

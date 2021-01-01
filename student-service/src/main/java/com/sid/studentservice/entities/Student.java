@@ -16,8 +16,7 @@ import javax.persistence.Id;
 public class Student {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String firstName;
-    private String lastName;
+    private String name;
     private String cin;
     private String major;
     private String grade;
