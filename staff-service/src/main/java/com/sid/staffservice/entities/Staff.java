@@ -21,6 +21,7 @@ public class Staff {
     private String name;
     @NotNull
     @Size(max = 250)
+    @Column(unique = true)
     private String cin;
     private String birthdate;
     @Size(max = 8)

@@ -22,7 +22,9 @@ public class ProxyServiceApplication {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**").allowedOrigins("*").allowedMethods("GET", "PUT", "POSt", "DELETE");
+                registry.addMapping("/**").allowedOrigins("*").allowedMethods("GET", "PUT", "POST", "OPTIONS","DELETE")
+                        .allowedHeaders("Content-Type", "Authorization","Content-Length", "X-Requested-With")
+                        .maxAge(3600);;
             }
         };
     }
