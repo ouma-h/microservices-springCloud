@@ -8,14 +8,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 
-
 @SpringBootApplication
 
 
 public class EnseignantApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(EnseignantApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(EnseignantApplication.class, args);
+    }
 }
 

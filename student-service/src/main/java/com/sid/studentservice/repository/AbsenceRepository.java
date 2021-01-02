@@ -1,11 +1,9 @@
-package com.example.demo.dao;
+package com.sid.studentservice.repository;
 
-import com.example.demo.entity.enseignant;
+import com.sid.studentservice.entities.Absence;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 @RepositoryRestResource
-public interface enseignantRepository extends JpaRepository<enseignant, Long> {
-
-
+public interface AbsenceRepository extends JpaRepository<Absence, Long> {
 }

@@ -14,12 +14,12 @@ import javax.persistence.*;
 @NoArgsConstructor
 @ToString
 public class enseignant {
-    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
 
     private long id;
     private String firstName;
     private String lastName;
-
 
 
 }
