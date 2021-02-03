@@ -17,7 +17,6 @@ public class Staff {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private boolean is_admin;
     @NotNull
     private String name;
     @NotNull
@@ -30,7 +29,6 @@ public class Staff {
     @Column(unique = true)
     private String email;
     private String role;
-    @JsonIgnore
-    private String password;
+
 
 }
