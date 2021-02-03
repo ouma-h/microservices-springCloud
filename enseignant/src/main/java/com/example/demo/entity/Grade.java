@@ -9,14 +9,14 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 
 @Entity
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class subject {
+public class Grade {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
+    private long id;
     @NotNull
     private String label;
 
@@ -24,6 +24,4 @@ public class subject {
     @JoinColumn(name="enseignant_id",nullable = false)
     @JsonIgnore
     private enseignant enseignant;
-
 }
-

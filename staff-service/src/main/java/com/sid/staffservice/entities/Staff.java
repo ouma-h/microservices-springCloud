@@ -1,5 +1,6 @@
 package com.sid.staffservice.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -29,5 +30,7 @@ public class Staff {
     @Column(unique = true)
     private String email;
     private String role;
+    @JsonIgnore
+    private String password;
 
 }

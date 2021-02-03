@@ -24,20 +24,13 @@ public class enseignant {
     @Column(unique = true)
     private String cin;
 
-  @Column(unique = true)
+    @Column(unique = true)
     private String email;
-
-
 
     private String phone;
     private String birthdate;
     private String date_emb;
     private String specialty;
-
-
-    @ManyToMany
-    @JoinTable
-    private Set<subject> subject;
 
 
 

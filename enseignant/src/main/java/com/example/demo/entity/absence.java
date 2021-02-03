@@ -23,7 +23,7 @@ public class absence {
     private enseignant enseignant;
 
     @ManyToOne(optional = false)
-    @JoinColumn(name = "enseignant_id" , nullable = false)
+    @JoinColumn(name = "subject_id" , nullable = false)
     @JsonIgnore
     private subject subject;
 

@@ -1,10 +1,9 @@
 package com.sid.staffservice.repositories;
 
-import com.sid.staffservice.entities.Staff;
+import com.sid.staffservice.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 @RepositoryRestResource
-public interface StaffRepository extends JpaRepository<Staff, Long> {
-    Staff findByEmail(String email);
+public interface UserRepository extends JpaRepository<User, Long> {
 }
