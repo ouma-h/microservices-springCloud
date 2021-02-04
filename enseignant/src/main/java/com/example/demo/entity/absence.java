@@ -16,24 +16,15 @@ public class absence {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String date;
-
-    @ManyToOne(optional = false)
-    @JoinColumn(name = "enseignant_id" , nullable = false)
-    @JsonIgnore
-    private enseignant enseignant;
-
-    @ManyToOne(optional = false)
-    @JoinColumn(name = "subject_id" , nullable = false)
-    @JsonIgnore
-    private subject subject;
-
-
-
-
-
-
-
-
-
-
+    private int enseignant;
 }
+
+
+
+
+
+
+
+
+
+

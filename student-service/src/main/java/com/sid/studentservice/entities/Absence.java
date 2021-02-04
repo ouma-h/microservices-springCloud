@@ -16,14 +16,8 @@ public class Absence {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String date;
+    private int subject;
+    private int student;
 
-    @ManyToOne(optional = false)
-    @JoinColumn(name = "student_id", nullable = false)
-    @JsonIgnore
-    private Student student;
 
-    @ManyToOne(optional = false)
-    @JoinColumn(name = "subject_id", nullable = false)
-    @JsonIgnore
-    private Subject subject;
 }
